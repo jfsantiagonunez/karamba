@@ -138,3 +138,6 @@ cert.pem
 key.pem
 cert.crt
 cert.key
+
+# Node
+node_modules/

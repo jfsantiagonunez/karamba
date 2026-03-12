@@ -9,7 +9,7 @@ websockets==12.0
 anthropic==0.18.0
 httpx==0.26.0
 langgraph==0.2.60
-langgraph-checkpoint==2.0.9
+langgraph-checkpoint==2.0.15
 langgraph-checkpoint-sqlite==2.0.5
 langchain-core==0.3.29
 
