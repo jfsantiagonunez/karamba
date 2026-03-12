@@ -1,0 +1,26 @@
+phases:
+  - name: "planning"
+    type: "planning"
+    prompt_file: "planning.txt"
+    verification:
+      - "not_empty"
+    config:
+      max_tokens: 1000
+
+  - name: "retrieval"
+    type: "retrieval"
+    prompt_file: "retrieval.txt"
+    verification:
+      - "not_empty"
+    config:
+      max_tokens: 500
+
+  - name: "reasoning"
+    type: "reasoning"
+    prompt_file: "reasoning.txt"
+    verification:
+      - "not_empty"
+      - "min_length"
+    config:
+      min_length: 100
+      max_tokens: 2000
